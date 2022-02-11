@@ -10,7 +10,7 @@ then
     unzip v$github_version.zip
     mv kubernetes-$github_version/ kubernetes
     cd kubernetes
-    make
+    make kubectl
     cd _output/local/bin/linux/ppc64le/
     ls
     mv kubectl kubectl-$github_version
